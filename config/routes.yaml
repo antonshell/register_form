@@ -1,0 +1,10 @@
+index:
+    path: /
+    controller: App\Controller\UserController::signUp
+signUp:
+  path: /sign-up
+  controller: App\Controller\UserController::signUp
+signUpHandler:
+  path: /sign-up-handler
+  controller: App\Controller\UserController::signUpHandler
+  methods: POST
